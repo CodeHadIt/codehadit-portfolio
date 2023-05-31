@@ -1,0 +1,118 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 45%;
+}
+
+.image_container{
+    height:90%;
+    display: grid;
+    place-content: center;
+    position: relative;
+    border-radius: 50%;
+    background: radial-gradient(ellipse at center, rgba(37, 37, 37, 0.5) 0%, #151515 60%);
+    background: radial-gradient(closest-corner circle at 50% 50%,
+    var(--ash-primary),
+    var(--card-bg) 20%,
+    var(--card-bg) 21%,
+    var(--main-bg) 70%);
+}
+
+.img_contain{
+    height: 35.5rem;
+    width: 35.5rem;
+    position: relative;
+    left: -10%;
+    border-radius: 38rem;
+    transition: all 3s cubic-bezier(0.165, 0.85, 0.45, 1);
+    -webkit-transition: all 3s cubic-bezier(0.165, 0.85, 0.45, 1);
+    animation: float 3s ease-in-out infinite;
+    background-color: var(--cyan-primary);
+}
+
+img{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    border-radius: 38rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.cta_container{
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid var(--ash-tertiary);
+}
+
+.icon_link {
+    font-size: 2rem;
+    display: grid;
+    place-content: center;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid var(--ash-tertiary);
+    padding: 2.5rem;
+    transition: all 3s cubic-bezier(0.165, 0.85, 0.45, 1);
+    -webkit-transition: all 3s cubic-bezier(0.165, 0.85, 0.45, 1);
+}
+
+.icon {
+    transition: all 3s cubic-bezier(0.165, 0.85, 0.45, 1);
+    -webkit-transition: all 3s cubic-bezier(0.165, 0.85, 0.45, 1);
+    color: var(--ash-secondary);
+}
+
+.icon_link:hover .icon {
+    color: var(--cyan-primary);
+}
+
+.icon_link:hover {
+    border-color: var(--cyan-primary);
+}
+
+@keyframes float {
+	0%, 100% {
+		transform: translateY(-5%);
+	}
+
+	50% {
+		transform: translateY(20%);
+	}
+}
+
+@media(max-width: 1200px) {
+    .container{
+        position: unset;
+        width: 100%;
+    }
+
+    .image_container{
+        Z-index: -2;
+        height: 500px;
+    }
+
+    .cta_container{
+        border-bottom: 1px solid var(--ash-tertiary);
+        Z-index: 500;
+        height: 100px;
+        background-color: var(--main-bg);
+    }
+
+    .img_contain{
+        height: 28rem;
+        width: 28rem;
+        left: unset;
+    }
+
+}

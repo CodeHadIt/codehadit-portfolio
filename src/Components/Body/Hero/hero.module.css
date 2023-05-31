@@ -1,0 +1,139 @@
+.container {
+    padding-block: 45rem 5rem;
+    position: relative;
+    text-align: left;
+    border-bottom: 2px solid var(--ash-tertiary);
+}
+
+.blob {
+    background-color: var(--main-bg);
+    position: absolute;
+    top: 18rem;
+    left: -16rem;
+    padding: 3rem 5rem;
+    width: 26rem;
+    height: 26rem;
+    border-radius: 50%;
+    text-align: center;
+    display: grid;
+    place-content: center;
+}
+
+.blob h1 {
+    color: var(--cyan-primary);
+    font-size: 4.2vw;
+}
+
+.title {
+    color: var(--cyan-primary);
+    font-size: 1.8rem;
+}
+
+.pitch {
+    margin-top: 1rem;
+    max-width: 60rem;
+}
+
+.cta {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+
+.animated_btn {
+    border: 1px solid white;
+    padding: 0 3.5rem;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    background: linear-gradient(to right, white 50%, var(--cyan-primary) 50%, var(--cyan-primary));
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 3s ease-out;
+}
+
+.animated_btn:hover {
+    background-position: -100%;
+    border-color: var(--cyan-primary);
+    color: var(--cyan-primary);
+}
+
+.icon_nav{
+    font-size: 2rem;
+    display: grid;
+    place-content: center;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid var(--ash-tertiary);
+    padding: 3rem;
+    transition: all 3s cubic-bezier(0.165, 0.85, 0.45, 1);
+    -webkit-transition: all 3s cubic-bezier(0.165, 0.85, 0.45, 1);
+    cursor:pointer;
+}
+
+.icon {
+    transition: all 3s cubic-bezier(0.165, 0.85, 0.45, 1);
+    -webkit-transition: all 3s cubic-bezier(0.165, 0.85, 0.45, 1);
+    animation: float 3s ease-in-out infinite;
+}
+
+.icon_nav:hover .icon {
+    color: var(--cyan-primary);
+}
+
+.icon_nav:hover {
+    border-color: var(--cyan-primary);
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(-10px);
+	}
+
+	100% {
+		transform: translatey(5px);
+        color: var(--cyan-primary);
+	}
+}
+
+
+@media(max-width: 1200px) {
+    .container{
+        text-align: center;
+        padding-block-start: 2rem;
+    }
+
+    .blob {
+        z-index: -1;
+        top:-15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        place-content: start center;
+    }
+
+    .blob h1 {
+        transform: translateY(-15px);
+        font-size: 2rem;
+    }
+
+    .pitch {
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+
+    .cta {
+        justify-content: center;
+    }
+
+    .icon_nav{
+        display: none;
+    }
+
+
+}

@@ -1,0 +1,167 @@
+.main_container {
+    text-align: center;
+    padding-block-start: 15rem;
+    border-bottom: 2px solid var(--ash-tertiary);
+    overflow: hidden;
+}
+
+.stack_container {
+    margin-bottom: 10rem;
+}
+
+.stack_container span {
+  display: inline-block;
+  color: var(--cyan-primary);
+  font-weight: 700;
+  font-size: 5.5rem;
+  letter-spacing: .3rem;
+  opacity: 0;
+}
+
+.animation_show.stack_container span {
+    animation: shadow 6s ease forwards infinite 2s, jump 4s ease;
+    opacity: 1;
+}
+
+.stack_container .divider {
+    margin-right: 1rem;
+}
+
+.stack_container span:nth-child(1){
+  animation-delay: .1s;
+}
+
+.stack_container span:nth-child(2){
+  animation-delay: .25s;
+}
+
+.stack_container span:nth-child(3){
+  animation-delay: .4s;
+}
+
+.stack_container span:nth-child(4){
+  animation-delay: .55s;
+}
+.stack_container span:nth-child(5){
+  animation-delay: .7s;
+}
+.stack_container span:nth-child(6){
+  animation-delay: .85s;
+}
+.stack_container span:nth-child(7){
+  animation-delay: 1s;
+}
+
+.stack_icons{
+  font-size: 5rem;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  opacity: 0;
+}
+
+.stack_icons.animation_show {
+  animation: entrace-down 5s ease-out;
+  opacity: 1 !important;
+}
+
+
+.icon {
+    color: var(--header-bg);
+    transition: 3s linear;
+    cursor: pointer;
+}
+
+.icon:hover {
+  color: var(--cyan-primary);
+ 
+}
+
+.html{
+    margin-top: -.4rem;
+}
+
+.animation_show .css, .animation_show .github{
+  animation: wave 10s linear infinite 5s;
+}
+
+
+.animation_show .react, .animation_show .solidity {
+  animation: wavereverse 10s linear infinite 5s;
+}
+
+/*ANIMATIONS*/
+
+@keyframes shadow {
+  0%, 100% {
+    text-shadow: 0 0 0 var(--ash-primary);
+  }
+  50% {
+    color:  white;
+    text-shadow: 10px 18px 10px var(--ash-primary);
+  }
+}
+
+@keyframes jump {
+  from{ 
+    transform: translateY(-200px);   
+  }
+  to{
+    transform: translateY(0);
+  }
+}
+
+@keyframes entrace-down {
+  from{ 
+    transform: translateY(300px); 
+  }
+  to{
+    transform: translateY(0);
+  }
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(35deg);
+  }
+  
+  25%{
+    transform: rotate(-20deg); 
+  }
+  
+  50% {
+    transform: rotate(35deg); 
+  }
+  
+  75%{
+    transform: rotate(-20deg);
+  }
+
+   100%{
+    transform: rotate(35deg);
+  }
+  
+}
+
+@keyframes wavereverse {
+  0% {
+    transform: rotate(-20deg);
+  }
+  
+  25%{
+    transform: rotate(35deg); 
+  }
+  
+  50% {
+    transform: rotate(-20deg); 
+  }
+  
+  75%{
+    transform: rotate(35deg);
+  }
+
+   100%{
+    transform: rotate(-20deg);
+  }
+}
+

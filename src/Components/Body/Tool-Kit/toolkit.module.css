@@ -1,0 +1,210 @@
+.main_container {
+    padding-block: 5rem;
+    position: relative;
+    background: radial-gradient(closest-corner circle at 50% 50%,
+    var(--ash-primary),
+    var(--card-bg) 20%,
+    var(--card-bg) 21%,
+    var(--main-bg) 70%);
+    overflow: hidden;
+    border-bottom: 2px solid var(--ash-tertiary);
+}
+
+.tools_text_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tools_text_container span {
+    text-transform: capitalize;
+    color: var(--ash-primary);
+    animation: toolsanimate 6s ease forwards infinite, jump 4s ease;
+    /*   margin-right: 10px; */
+    /* height: 64px; */
+    line-height: 62px;
+    padding: 0 .8rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.tools_text_container span:nth-child(1){
+  animation-delay: .1s;
+}
+
+.tools_text_container span:nth-child(2){
+  animation-delay: .3s;
+}
+
+.tools_text_container span:nth-child(3){
+  animation-delay: .5s;
+}
+
+.tools_text_container span:nth-child(4){
+  animation-delay: .4s;
+}
+
+.tools_text_container span:nth-child(5){
+  animation-delay: .7s;
+}
+.tools_text_container span:nth-child(6){
+  animation-delay: .9s;
+}
+
+.tools_text_container span:nth-child(7){
+  animation-delay: 1s;
+}
+
+.tools_container {
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    height: 40vw;
+    width: 40vw;
+    margin: 0 auto;
+    position: relative;
+    animation: wheel 10s linear infinite;
+}
+
+.tools_container:has(img:hover) {
+    animation-play-state: paused;
+}
+
+.image_container {
+    width: 9rem;
+    position: absolute;
+}
+
+.image_container img {
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    /*   filter: brightness(0) saturate(100%) invert(12%) sepia(7%) saturate(1624%) hue-rotate(186deg) brightness(92%) contrast(89%); */
+    filter: brightness(0) saturate(100%) invert(14%) sepia(19%) saturate(507%) hue-rotate(185deg) brightness(89%) contrast(92%);
+    cursor: pointer;
+}
+
+.image_container img:hover {
+    filter:none;
+}
+
+.image_container img:hover {
+    animation: shake 8s ease-in-out forwards infinite;
+    transition: 8s;
+}
+
+.container1{
+  right: 2.5%;
+  top: 50%;
+}
+
+.container2{
+   right: 21.5%;
+  top: 85%;
+}
+
+.container3{
+  right: 63.5%;
+  top: 85%;
+}
+
+.container4{
+  left: 2.5%;
+  top: 50%;
+}
+
+.container5{
+    left: 16.5%;
+  top: 15.5%;
+}
+
+.container6{
+  right: 16.5%;
+  top: 15.5%;
+}
+
+.popup_text {
+    visibility: hidden;
+    width: 12rem;
+    font-size: 1.8rem;
+    background-color: var(--card-bg);
+    color:var(--cyan-primary);
+    text-align: center;
+    border-radius: 1rem;
+    padding-block: .8rem;
+    position: absolute;
+    z-index: 1;
+    top: 110%;
+    left: 70%;
+    margin-left: -8rem;
+    box-shadow: 0 2px 5px var(--ash-tertiary);
+}
+
+.popup_text:has(+ img:hover)  {
+    visibility: visible;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 1s;
+}
+
+@keyframes toolsanimate {
+  0%, 100% {
+    text-shadow: 0 0 0 var(--main-bg);
+  }
+  50% {
+    color:  var(--cyan-primary);
+    text-shadow: 0 1.5rem 1.5rem var(--main-bg);
+  }
+}
+
+@keyframes shake {
+  0% { transform: translate(2px, 2px) rotate(0deg); }
+  10% { transform: translate(-2px, -3px) rotate(-1deg); }
+  20% { transform: translate(-4px, 1px) rotate(1deg); }
+  30% { transform: translate(4px, 3px) rotate(0deg); }
+  40% { transform: translate(2px, -2px) rotate(1deg); }
+  50% { transform: translate(-2px, 3px) rotate(-1deg); }
+  60% { transform: translate(-4px, 2px) rotate(0deg); }
+  70% { transform: translate(4px, 2px) rotate(-1deg); }
+  80% { transform: translate(-2px, -2px) rotate(1deg); }
+  90% { transform: translate(2px, 3px) rotate(0deg); }
+  100% { transform: translate(2px, -3px) rotate(-1deg); }
+}
+
+@keyframes wheel {
+   0% {
+     transform: rotate(0deg);
+   }
+   100% {
+     transform: rotate(360deg);
+   }
+}
+
+/*FOR POPUP*/
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+@media(max-width: 992px) {
+  .tools_text_container span {
+    font-size: 1.3rem;
+    padding: 0 .2rem;
+  }
+
+  .tools_container {
+    width: 70vw;
+    height: 70vw;
+  }
+
+  .image_container {
+    width: 4rem;
+  }
+}
+
+/* @media(max-width: 920px) {
+  .tools_container {
+    width: 50vw;
+    height: 50vw;
+  }
+} */
+
