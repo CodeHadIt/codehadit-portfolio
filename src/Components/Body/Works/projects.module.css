@@ -1,5 +1,5 @@
 .main_container{
-    padding-block: 15rem;
+    padding-block: 10rem;
     border-bottom: 2px solid var(--ash-tertiary);
 }
 
@@ -35,8 +35,6 @@
     background-color: var(--card-bg);
     padding: 4rem;
     cursor: pointer;
-    /* transition: border 3s ease-in;
-    -webkit-transition: border 3s ease-in; */
 }
 
 .card:hover {
@@ -63,7 +61,6 @@
 .lower_section {
     justify-content: flex-start;
     gap: 2rem;
-    /* border: 1px solid white; */
 }
 
 .lower_section a {
@@ -101,5 +98,3 @@
     }
 
 }
-
-

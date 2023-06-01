@@ -7,7 +7,7 @@ const Articles = () => {
     <section className={styles.main_container} id="articles">
       <div className={styles.section_info}>
         <h2>Featured Articles</h2>
-        <p>I sometimes write on the EVM and the Blockchain in general</p>
+        <p>I sometimes write on the EVM and the Blockchain in general.</p>
       </div>
 
       <div className={`${styles.articles_container} ${styles.flex}`}>

@@ -1,6 +1,6 @@
 .main_container {
     text-align: center;
-    padding-block-start: 15rem;
+    padding-block-start: 10rem;
     border-bottom: 2px solid var(--ash-tertiary);
     overflow: hidden;
 }

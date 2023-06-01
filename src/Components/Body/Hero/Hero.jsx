@@ -13,17 +13,17 @@ const Hero = () => {
       </div>
       <h3 className={styles.title}>Frontend Blockchain Developer</h3>
       <p className={styles.pitch}>
-        Greetings sojourner. I am Kenneth Okini, alais "codehadit". I'm a frontend
-        blockchain developer utilizing the magic wand in my keyboard to build
-        seamless application in the decentralized realm. <br />
-        Currently playing my part in
-        initiating the next billion blockchain users, one decentralized app at a
-        time. When i'm off chain, you can catch me cheering on my favourite sports
-        teams: Chelsea FC and the Alabama Crimson Tide #RTR!.
+        Greetings sojourner. I am Kenneth Okini, alais "codehadit". I'm a
+        frontend blockchain developer utilizing the magic wand in my keyboard to
+        build seamless application in the decentralized realm. <br />
+        Currently playing my part in initiating the next billion blockchain
+        users, one decentralized app at a time. When i'm off chain, you can
+        catch me cheering on my favourite sports teams: Chelsea FC and the
+        Alabama Crimson Tide #RTR!.
       </p>
       <div className={styles.cta}>
         <a
-          href="mailto:okinikenneth@gmail.com"
+          href="mailto:ken@codehadit.dev"
           id="email"
           className={`${styles.animated_btn} ${styles.navlink}`}
         >
