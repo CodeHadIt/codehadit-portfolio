@@ -28,15 +28,15 @@ const Projects = () => {
             </p>
           </div>
           <div className={`${styles.lower_section} ${styles.flex}`}>
-            <a href="https://hereditas.vercel.app/">
+            <a href="https://hereditas.vercel.app/" target="_blank">
               <FaEye className={styles.icon} />
               <span>Live</span>
             </a>
-            <a href="https://github.com/CodeHadIt/Hereditas">
+            <a href="https://github.com/CodeHadIt/Hereditas" target="_blank">
               <FaCode className={styles.icon} />
               <span>Code</span>
             </a>
-            <a href="">
+            <a href="https://youtu.be/vaFBOlQLwlQ" target="_blank">
               <FaYoutube className={styles.icon} />
               <span>Demo</span>
             </a>
@@ -58,15 +58,18 @@ const Projects = () => {
             </p>
           </div>
           <div className={`${styles.lower_section} ${styles.flex}`}>
-            <a href="">
+            <a href="https://decentralized-zillow.vercel.app/" target="_blank">
               <FaEye className={styles.icon} />
               <span>Live</span>
             </a>
-            <a href="https://github.com/CodeHadIt/Decentralized-Zillow">
+            <a
+              href="https://github.com/CodeHadIt/Decentralized-Zillow"
+              target="_blank"
+            >
               <FaCode className={styles.icon} />
               <span>Code</span>
             </a>
-            <a href="">
+            <a href="https://youtu.be/HpkvnFtOodw" target="_blank">
               <FaYoutube className={styles.icon} />
               <span>Demo</span>
             </a>
@@ -96,7 +99,7 @@ const Projects = () => {
               <FaCode className={styles.icon} />
               <span>Code</span>
             </a>
-            <a href="">
+            <a href="https://youtu.be/gXlxPLPap_8" target="_blank">
               <FaYoutube className={styles.icon} />
               <span>Demo</span>
             </a>

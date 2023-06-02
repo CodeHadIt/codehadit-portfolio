@@ -60,7 +60,12 @@ const DesktopHeader = () => {
               <em>k</em>
             </span>
           </HashLink>
-          <HashLink smooth to="#articles" id={styles.articles} className={styles.navlink}>
+          <HashLink
+            smooth
+            to="#articles"
+            id={styles.articles}
+            className={styles.navlink}
+          >
             <span>
               <em>A</em>
               <em>r</em>
@@ -75,9 +80,10 @@ const DesktopHeader = () => {
         </div>
 
         <a
-          href="#"
+          href="https://drive.google.com/file/d/1ohd5yFs95J5WEatF_mWIgyqSqEHfOt31/view?usp=drive_link"
           id="resume"
           className={`${styles.animated_btn} ${styles.navlink}`}
+          target="_blank"
         >
           <span>
             <em>R</em>

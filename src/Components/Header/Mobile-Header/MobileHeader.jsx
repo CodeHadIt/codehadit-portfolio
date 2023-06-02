@@ -35,9 +35,10 @@ const MobileHeader = () => {
       {isOpen && (
         <div className={styles.links_container}>
           <a
-            href="#"
+            href="https://drive.google.com/file/d/1ohd5yFs95J5WEatF_mWIgyqSqEHfOt31/view?usp=drive_link"
             id="resume"
             className={`${styles.animated_btn} ${styles.navlink}`}
+            target="_blank"
           >
             <span>
               <em>R</em>
