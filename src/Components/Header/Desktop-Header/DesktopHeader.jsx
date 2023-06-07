@@ -80,7 +80,7 @@ const DesktopHeader = () => {
         </div>
 
         <a
-          href="https://drive.google.com/file/d/1ohd5yFs95J5WEatF_mWIgyqSqEHfOt31/view?usp=drive_link"
+          href="https://drive.google.com/file/d/19q9ArjyzUHPMctfzcAcZB-TboD9cPfwM/view?usp=sharing"
           id="resume"
           className={`${styles.animated_btn} ${styles.navlink}`}
           target="_blank"
