@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
       <h3 className={styles.title}>Frontend Blockchain Developer</h3>
       <p className={styles.pitch}>
-        Greetings sojourner. I am Kenneth Okini, alais "codehadit". I'm a
+        Greetings sojourner. I am Kenneth Okini, alias "codehadit". I'm a
         frontend blockchain developer utilizing the magic wand in my keyboard to
         build seamless application in the decentralized realm. <br />
         Currently playing my part in initiating the next billion blockchain
