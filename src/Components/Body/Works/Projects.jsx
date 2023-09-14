@@ -36,7 +36,7 @@ const Projects = () => {
               <FaCode className={styles.icon} />
               <span>Code</span>
             </a>
-            <a href="https://youtu.be/vaFBOlQLwlQ" target="_blank">
+            <a href="#">
               <FaYoutube className={styles.icon} />
               <span>Demo</span>
             </a>
@@ -69,7 +69,7 @@ const Projects = () => {
               <FaCode className={styles.icon} />
               <span>Code</span>
             </a>
-            <a href="https://youtu.be/HpkvnFtOodw" target="_blank">
+            <a href="#">
               <FaYoutube className={styles.icon} />
               <span>Demo</span>
             </a>
@@ -99,7 +99,7 @@ const Projects = () => {
               <FaCode className={styles.icon} />
               <span>Code</span>
             </a>
-            <a href="https://youtu.be/gXlxPLPap_8" target="_blank">
+            <a href="#">
               <FaYoutube className={styles.icon} />
               <span>Demo</span>
             </a>
