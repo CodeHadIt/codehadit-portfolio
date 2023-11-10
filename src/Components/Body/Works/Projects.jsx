@@ -16,10 +16,10 @@ const Projects = () => {
           <div className={styles.upper_section}>
             <h3>Hereditas</h3>
             <div className={`${styles.stack} ${styles.flex}`}>
-              <h4>React.</h4>
+              <h4>Next Js.</h4>
               <h4>Solidity.</h4>
               <h4>Ethers JS.</h4>
-              <h4>Hardhat.</h4>
+              <h4>Wagmi.</h4>
             </div>
             <p className={styles.description}>
               A Dapp for gifting crypto assets to individuals/DAO's of your
@@ -28,15 +28,23 @@ const Projects = () => {
             </p>
           </div>
           <div className={`${styles.lower_section} ${styles.flex}`}>
-            <a href="https://hereditas.vercel.app/" target="_blank">
+            <a
+              href="https://hereditas.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaEye className={styles.icon} />
               <span>Live</span>
             </a>
-            <a href="https://github.com/CodeHadIt/Hereditas" target="_blank">
+            <a
+              href="https://github.com/CodeHadIt/Hereditas-v2"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaCode className={styles.icon} />
               <span>Code</span>
             </a>
-            <a href="#">
+            <a href="/">
               <FaYoutube className={styles.icon} />
               <span>Demo</span>
             </a>
@@ -45,31 +53,35 @@ const Projects = () => {
 
         <div className={`${styles.card} ${styles.flex}`}>
           <div className={styles.upper_section}>
-            <h3>Millow</h3>
+            <h3>Stubbz</h3>
             <div className={`${styles.stack} ${styles.flex}`}>
-              <h4>React.</h4>
-              <h4>Solidity.</h4>
-              <h4>Ethers JS.</h4>
-              <h4>Hardhat.</h4>
+              <h4>NextJS.</h4>
+              <h4>ShadCN Ui.</h4>
+              <h4>Metaplex.</h4>
             </div>
             <p className={styles.description}>
-              A platform for listing, reviewing and selling real estates on the
-              ethereum blockchain. Think of decentralized ZIllow.
+              An event management platform that leverages Nfts to provide
+              seamless event experiences. <br /> Built with metaplex on the Solana Blockchain.
             </p>
           </div>
           <div className={`${styles.lower_section} ${styles.flex}`}>
-            <a href="https://decentralized-zillow.vercel.app/" target="_blank">
+            <a
+              href="https://stubbz.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaEye className={styles.icon} />
               <span>Live</span>
             </a>
             <a
-              href="https://github.com/CodeHadIt/Decentralized-Zillow"
+              href="https://github.com/Stubbz-platform/main-app"
               target="_blank"
+              rel="noreferrer"
             >
               <FaCode className={styles.icon} />
               <span>Code</span>
             </a>
-            <a href="#">
+            <a href="/">
               <FaYoutube className={styles.icon} />
               <span>Demo</span>
             </a>
@@ -91,17 +103,21 @@ const Projects = () => {
             </p>
           </div>
           <div className={`${styles.lower_section} ${styles.flex}`}>
-            <a href="https://wwtbac.vercel.app/" target="_blank">
+            <a
+              href="https://wwtbac.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaEye className={styles.icon} />
               <span>Live</span>
             </a>
-            <a href="https://github.com/CodeHadIt/WWTBAC" target="_blank">
+            <a
+              href="https://github.com/CodeHadIt/WWTBAC"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaCode className={styles.icon} />
               <span>Code</span>
-            </a>
-            <a href="#">
-              <FaYoutube className={styles.icon} />
-              <span>Demo</span>
             </a>
           </div>
         </div>
@@ -121,9 +137,47 @@ const Projects = () => {
             </p>
           </div>
           <div className={`${styles.lower_section} ${styles.flex}`}>
-            <a href="https://tastify-music.vercel.app/" target="_blank">
+            <a
+              href="https://tastify-music.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaEye className={styles.icon} />
               <span>Live</span>
+            </a>
+          </div>
+        </div>
+
+        <div className={`${styles.card} ${styles.flex}`}>
+          <div className={styles.upper_section}>
+            <h3>Millow</h3>
+            <div className={`${styles.stack} ${styles.flex}`}>
+              <h4>React.</h4>
+              <h4>Solidity.</h4>
+              <h4>Ethers JS.</h4>
+              <h4>Hardhat.</h4>
+            </div>
+            <p className={styles.description}>
+              A platform for listing, reviewing and selling real estates on the
+              ethereum blockchain. Think of decentralized ZIllow.
+            </p>
+          </div>
+          <div className={`${styles.lower_section} ${styles.flex}`}>
+            <a
+              href="https://decentralized-zillow.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaEye className={styles.icon} />
+              <span>Live</span>
+            </a>
+            <a
+              href="https://github.com/CodeHadIt/Decentralized-Zillow"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaCode className={styles.icon} />
+              <span>Code</span>
             </a>
           </div>
         </div>

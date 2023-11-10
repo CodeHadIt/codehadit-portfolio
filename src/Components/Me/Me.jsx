@@ -18,6 +18,7 @@ const Me = () => {
           href="https://www.linkedin.com/in/kenneth-okini/"
           target="_blank"
           className={styles.icon_link}
+          rel="noreferrer"
         >
           <FaLinkedin className={styles.icon} />
         </a>
@@ -25,6 +26,7 @@ const Me = () => {
           href="https://github.com/CodeHadIt"
           target="_blank"
           className={styles.icon_link}
+          rel="noreferrer"
         >
           <FaGithub className={styles.icon} />
         </a>
@@ -32,13 +34,15 @@ const Me = () => {
           href="https://twitter.com/CodeHadit"
           target="_blank"
           className={styles.icon_link}
+          rel="noreferrer"
         >
           <FaTwitter className={styles.icon} />
         </a>
         <a
-          href="https://youtube.com/@CodeHadit"
           target="_blank"
           className={styles.icon_link}
+          rel="noreferrer"
+          href='/'
         >
           <FaYoutube className={styles.icon} />
         </a>
