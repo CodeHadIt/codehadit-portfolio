@@ -13,12 +13,10 @@ const Hero = () => {
       </div>
       <h3 className={styles.title}>Frontend Blockchain Developer</h3>
       <p className={styles.pitch}>
-        Greetings sojourner. I am Kenneth Okini, alias "codehadit". I'm a
-        frontend blockchain developer utilizing the magic wand in my keyboard to
-        build seamless application in the decentralized realm. <br />
-        Currently playing my part in initiating the next billion blockchain
-        users, one decentralized app at a time. When i'm off chain, you can
-        catch me cheering on my favourite sports teams: Chelsea FC and the
+        Utilizing my magic wand(keyboard) in
+        building seamless applications in the decentralized realm. <br />
+        Currently building consumer facing dapps which abstract blockchain backend complexities. When off chain, you can
+        catch me cheering on my favourite sports teams; Chelsea FC and the
         Alabama Crimson Tide #RTR!.
       </p>
       <div className={styles.cta}>
