@@ -22,7 +22,7 @@ const Projects = () => {
               <h4>Wagmi.</h4>
             </div>
             <p className={styles.description}>
-              A Dapp for gifting crypto assets to individuals/DAO's of your
+              A Dapp for gifting crypto assets to individuals/DAOs of your
               choosing at a specific time. Think of having your will on the
               blockchain.
             </p>
@@ -60,8 +60,8 @@ const Projects = () => {
               <h4>Metaplex.</h4>
             </div>
             <p className={styles.description}>
-              An event management platform that leverages Nfts to provide
-              seamless event experiences. <br /> Built with metaplex on the Solana Blockchain.
+              An event management platform leveraging Nfts to provide
+              seamless event experiences. <br /> Built with metaplex on Solana.
             </p>
           </div>
           <div className={`${styles.lower_section} ${styles.flex}`}>
@@ -97,8 +97,8 @@ const Projects = () => {
               <h4>Goerli.</h4>
             </div>
             <p className={styles.description}>
-              A fun crypto education game adapted after the famous Who Wants to
-              be a Millionaire game. Your favourite trivia game but with ERC20
+              A fun crypto education game adapted after the famous "Who Wants to
+              be a Millionaire" game. Your favourite trivia game with ERC20
               token rewards.
             </p>
           </div>
@@ -132,7 +132,7 @@ const Projects = () => {
             </div>
             <p className={styles.description}>
               See, explore and share your music taste with friends and family.
-              Built with Spotify and Twitter APIs in conjuction with bundles of
+              Built with Spotify and Twitter APIs in with bundles of
               love.
             </p>
           </div>
@@ -158,8 +158,8 @@ const Projects = () => {
               <h4>Hardhat.</h4>
             </div>
             <p className={styles.description}>
-              A platform for listing, reviewing and selling real estates on the
-              ethereum blockchain. Think of decentralized ZIllow.
+              A platform for listing, reviewing and selling real estates(as Non-Fungible-Tokens) on
+              ethereum. Think of decentralized Zillow.
             </p>
           </div>
           <div className={`${styles.lower_section} ${styles.flex}`}>

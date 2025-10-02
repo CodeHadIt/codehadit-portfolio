@@ -13,10 +13,10 @@ const Hero = () => {
       </div>
       <h3 className={styles.title}>Frontend Blockchain Developer</h3>
       <p className={styles.pitch}>
-        Utilizing my magic wand(keyboard) in
-        building seamless applications in the decentralized realm. <br />
-        Currently building consumer facing dapps which abstract blockchain backend complexities. When off chain, you can
-        catch me cheering on my favourite sports teams; Chelsea FC and the
+        Codehadit uses his my magic wand(keyboard) to
+        build seamless applications in the decentralized realm. <br />
+        He's an advocate for abstracting blockchain complexities when building blockchain based apps. Off chain, you can
+        catch him cheering on his favourite sports teams; Chelsea FC and the
         Alabama Crimson Tide #RTR!.
       </p>
       <div className={styles.cta}>
